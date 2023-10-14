@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University design</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/85017fbb3e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--for background-->
+    <section class="sub-header">
+
+        <!--for nav bar-->
+        <nav class="nav">
+            <a href="web.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="About.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+
+        </nav>
+        <h2>Our Courses</h2>
+    </section>
+
+    <!--------course content----------->
+    <section class="Course">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur ratione error maiores quas
+                    doloribus quia neque alias impedit reiciendis libero obcaecati labore perferendis, velit itaque
+                    adipisci voluptatibus ad natus perspiciatis!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur ratione error maiores quas
+                    doloribus quia neque alias impedit reiciendis libero obcaecati labore perferendis, velit itaque
+                    adipisci voluptatibus ad natus perspiciatis!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur ratione error maiores quas
+                    doloribus quia neque alias impedit reiciendis libero obcaecati labore perferendis, velit itaque
+                    adipisci voluptatibus ad natus perspiciatis!</p>
+            </div>
+        </div>
+    </section>
+
+<!--------------facilities------------------>
+<section class="facilities">
+    <h2>Our Facilities</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius minima ipsa, totam aperiam
+                ipsum.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius minima ipsa, totam aperiam
+                ipsum.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Testy and Healthy Food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius minima ipsa, totam aperiam
+                ipsum.</p>
+        </div>
+    </div>
+</section>
+
+
+    </section>
+
+
+    <!----------footer------------>
+
+    <footer>
+        <section class="footer">
+            <div class="row">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="University Logo"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quos officiis, possimus error
+                        corrupti dolor molestias. Impedit quae illum itaque iste suscipit, iure blanditiis, possimus
+                        soluta
+                        cupiditate, sit adipisci architecto!</p>
+                </div>
+                <div class="footer-info">
+                    <h3>Contact Us</h3>
+                    <p>123 University Street</p>
+                    <p>City, State 12345</p>
+                    <p>Email: info@university.edu</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+
+
+
+
+
+
+    <!--------script---------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
